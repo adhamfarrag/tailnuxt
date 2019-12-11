@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="border-b border-gray-200 flex flex-row justify-between px-3 py-1">
+    <div class="border-b border-gray-200 flex flex-row justify-center px-3 py-1">
     <div class="flex flex-row items-center justify-start">
       <div>
         <nuxt-link to="/reddit">
