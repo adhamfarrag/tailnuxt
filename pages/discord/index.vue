@@ -1,25 +1,25 @@
 <template>
   <div class="flex">
-    <div class="bg-gray-900 w-20 flex-none flex flex-col min-h-screen h-screen px-2 py-2" >
-      <div class="channel-bar overflow-y-auto">
+    <div class="flex flex-col flex-none w-20 h-screen min-h-screen px-2 py-2 bg-gray-900" >
+      <div class="overflow-y-auto channel-bar">
         <ul class="text-center">
           <li>
             <a href="#">
               <img
                 src="/icon_discord.svg"
                 alt="discord"
-                class="w-12 h-12 inline-block rounded-full mx-auto hover:hideen"
+                class="inline-block w-12 h-12 mx-auto rounded-full hover:hideen"
               />
             </a>
           </li>
 
-          <li class="border-b border-gray-700 mx-4 mt-3"></li>
+          <li class="mx-4 mt-3 border-b border-gray-700"></li>
           <li class="mt-3">
             <a href="#">
               <img
                 src="/icon_laravel.svg"
                 alt="laravel"
-                class="w-12 h-12 rounded-full mx-auto"
+                class="w-12 h-12 mx-auto rounded-full"
               />
             </a>
           </li>
@@ -28,7 +28,7 @@
               <img
                 src="/icon_tailwind.svg"
                 alt="tailwind"
-                class="w-12 h-12 rounded-full mx-auto"
+                class="w-12 h-12 mx-auto rounded-full"
               />
             </a>
           </li>
@@ -37,18 +37,18 @@
               <img
                 src="/icon_vue.svg"
                 alt="vue"
-                class="w-12 h-12 rounded-full mx-auto"
+                class="w-12 h-12 mx-auto rounded-full"
               />
             </a>
           </li>
           <li class="mt-3">
             <a
               href="#"
-              class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white inline-block rounded-full"
+              class="inline-block w-12 h-12 text-teal-500 bg-gray-800 rounded-full hover:bg-teal-500 hover:text-white"
             >
               <svg
                 fill="currentColor"
-                class="mt-3 mx-auto"
+                class="mx-auto mt-3"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -65,11 +65,11 @@
           <li class="mt-2">
             <a
               href="#"
-              class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white inline-block rounded-full"
+              class="inline-block w-12 h-12 text-teal-500 bg-gray-800 rounded-full hover:bg-teal-500 hover:text-white"
             >
               <svg
                 fill="currentColor"
-                class="mt-3 mx-auto"
+                class="mx-auto mt-3"
                 viewBox="0 0 24 24"
                 width="24"
                 height="24"
@@ -81,15 +81,15 @@
               </svg>
             </a>
           </li>
-          <li class="border-b border-gray-700 mx-4 mt-3"></li>
+          <li class="mx-4 mt-3 border-b border-gray-700"></li>
           <li class="mt-3">
             <a
               href="#"
-              class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white inline-block rounded-full"
+              class="inline-block w-12 h-12 text-teal-500 bg-gray-800 rounded-full hover:bg-teal-500 hover:text-white"
             >
               <svg
                 fill="currentColor"
-                class="mt-3 mx-auto"
+                class="mx-auto mt-3"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 width="24"
@@ -105,10 +105,10 @@
         </ul>
       </div>
     </div>
-    <div class="flex flex-col min-h-screen h-screen">
+    <div class="flex flex-col h-screen min-h-screen">
       <div class="flex">
         <div
-          class="bg-gray-800 w-56 flex-none text-white flex items-center justify-between border-b border-gray-900 px-3 py-2"
+          class="flex items-center justify-between flex-none w-56 px-3 py-2 text-white bg-gray-800 border-b border-gray-900"
         >
           <div>Tailwind CSS</div>
           <button>
@@ -121,13 +121,13 @@
           </button>
         </div>
         <div
-          class="flex-1 bg-gray-750 flex items-center justify-between border-b border-gray-900 px-4"
+          class="flex items-center justify-between flex-1 px-4 border-b border-gray-900 bg-gray-750"
         >
           <div class="flex items-center">
-            <div class="text-gray-500 text-2xl">#</div>
+            <div class="text-2xl text-gray-500">#</div>
             <div class="ml-2 text-sm text-white">general</div>
             <div
-              class="border-l pl-3 ml-3 border-gray-600 text-xs text-gray-400"
+              class="pl-3 ml-3 text-xs text-gray-400 border-l border-gray-600"
             >
               general discussion of Tailwind CSS
             </div>
@@ -181,9 +181,9 @@
                 <input
                   type="text"
                   placeholder="Search"
-                  class="rounded bg-gray-900 text-gray-200 text-xs px-2 py-1"
+                  class="px-2 py-1 text-xs text-gray-200 bg-gray-900 rounded"
                 />
-                <span class="absolute right-0 top-0 mr-1" style="top:6px">
+                <span class="absolute top-0 right-0 mr-1" style="top:6px">
                   <svg
                     class="w-4 h-4 text-gray-500 hover:text-gray-200"
                     fill="currentColor"
@@ -237,14 +237,14 @@
           </div>
         </div>
       </div>
-      <div class="flex-1 bg-blue-500 flex overflow-y-hidden">
+      <div class="flex flex-1 overflow-y-hidden bg-blue-500">
         <div
-          class="bg-gray-800 w-56 flex-none overflow-y-auto flex flex-col justify-between"
+          class="flex flex-col justify-between flex-none w-56 overflow-y-auto bg-gray-800"
         >
-          <div class="hashtag-bar text-sm leading-relaxed overflow-y-auto">
+          <div class="overflow-y-auto text-sm leading-relaxed hashtag-bar">
             <ul class="px-2 py-3">
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -252,7 +252,7 @@
                 </a>
               </li>
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -273,14 +273,14 @@
                   d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"
                 ></path>
               </svg>
-              <h3 class="uppercase tracking-wide font-semibold text-xs">
+              <h3 class="text-xs font-semibold tracking-wide uppercase">
                 Tailwind CSS
               </h3>
             </button>
 
             <ul class="px-2 py-3 pt-2">
               <li
-                class="text-gray-200 px-2 hover:text-gray-200 hover:bg-gray-900 bg-gray-750 rounded"
+                class="px-2 text-gray-200 rounded hover:text-gray-200 hover:bg-gray-900 bg-gray-750"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -288,7 +288,7 @@
                 </a>
               </li>
               <li
-                class="text-gray-200 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-200 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -296,7 +296,7 @@
                 </a>
               </li>
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -304,7 +304,7 @@
                 </a>
               </li>
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -312,7 +312,7 @@
                 </a>
               </li>
               <li
-                class="text-gray-200 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-200 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -320,7 +320,7 @@
                 </a>
               </li>
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -328,7 +328,7 @@
                 </a>
               </li>
               <li
-                class="text-gray-200 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-200 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -349,14 +349,14 @@
                   d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"
                 ></path>
               </svg>
-              <h3 class="uppercase tracking-wide font-semibold text-xs">
+              <h3 class="text-xs font-semibold tracking-wide uppercase">
                 Community
               </h3>
             </button>
 
             <ul class="px-2 py-3 pt-2">
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -364,7 +364,7 @@
                 </a>
               </li>
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -385,14 +385,14 @@
                   d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"
                 ></path>
               </svg>
-              <h3 class="uppercase tracking-wide font-semibold text-xs">
+              <h3 class="text-xs font-semibold tracking-wide uppercase">
                 Off Topic
               </h3>
             </button>
 
             <ul class="px-2 py-3 pt-2">
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -400,7 +400,7 @@
                 </a>
               </li>
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -408,7 +408,7 @@
                 </a>
               </li>
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-900"
+                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
               >
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
@@ -417,7 +417,7 @@
               </li>
             </ul>
           </div>
-          <div class="bg-gray-900 px-3 py-2 flex items-center justify-between">
+          <div class="flex items-center justify-between px-3 py-2 bg-gray-900">
             <div class="flex items-center">
               <a href="#"
                 ><img
@@ -425,7 +425,7 @@
                   alt="avatar"
                   class="w-8 h-8 rounded-full"
               /></a>
-              <div class="text-xs ml-2">
+              <div class="ml-2 text-xs">
                 <div class="text-white">adhamfarrag</div>
                 <div class="text-gray-500 text-xxs">#9589</div>
               </div>
@@ -478,10 +478,10 @@
             </div>
           </div>
         </div>
-        <div class="bg-green-500 flex-1 flex justify-between">
-          <div class="bg-indigo-300 flex-1 flex flex-col justify-between">
-            <div class="chat text-sm bg-gray-750 overflow-y-auto">
-              <div class="flex mx-6 my-3 py-4 border-t border-gray-700">
+        <div class="flex justify-between flex-1 bg-green-500">
+          <div class="flex flex-col justify-between flex-1 bg-indigo-300">
+            <div class="overflow-y-auto text-sm chat bg-gray-750">
+              <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
                     ><img
@@ -495,7 +495,7 @@
                     <a href="#" class="text-white hover:underline"
                       >adhamfarrag</a
                     >
-                    <span class="text-xs text-gray-600 ml-1">07/17/2019</span>
+                    <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>yeah hahaha</div>
@@ -504,7 +504,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex mx-6 my-3 py-4 border-t border-gray-700">
+              <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
                     ><img
@@ -518,7 +518,7 @@
                     <a href="#" class="text-white hover:underline"
                       >adhamfarrag</a
                     >
-                    <span class="text-xs text-gray-600 ml-1">07/17/2019</span>
+                    <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
@@ -530,7 +530,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex mx-6 my-3 py-4 border-t border-gray-700">
+              <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
                     ><img
@@ -544,7 +544,7 @@
                     <a href="#" class="text-white hover:underline"
                       >adhamfarrag</a
                     >
-                    <span class="text-xs text-gray-600 ml-1">07/17/2019</span>
+                    <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
@@ -553,7 +553,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex mx-6 my-3 py-4 border-t border-gray-700">
+              <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
                     ><img
@@ -567,7 +567,7 @@
                     <a href="#" class="text-white hover:underline"
                       >adhamfarrag</a
                     >
-                    <span class="text-xs text-gray-600 ml-1">07/17/2019</span>
+                    <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
@@ -577,7 +577,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex mx-6 my-3 py-4 border-t border-gray-700">
+              <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
                     ><img
@@ -591,7 +591,7 @@
                     <a href="#" class="text-white hover:underline"
                       >adhamfarrag</a
                     >
-                    <span class="text-xs text-gray-600 ml-1">07/17/2019</span>
+                    <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
@@ -603,7 +603,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex mx-6 my-3 py-4 border-t border-gray-700">
+              <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
                     ><img
@@ -617,7 +617,7 @@
                     <a href="#" class="text-white hover:underline"
                       >adhamfarrag</a
                     >
-                    <span class="text-xs text-gray-600 ml-1">07/17/2019</span>
+                    <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
@@ -628,7 +628,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex mx-6 my-3 py-4 border-t border-gray-700">
+              <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
                     ><img
@@ -642,7 +642,7 @@
                     <a href="#" class="text-white hover:underline"
                       >adhamfarrag</a
                     >
-                    <span class="text-xs text-gray-600 ml-1">07/17/2019</span>
+                    <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
@@ -653,7 +653,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex mx-6 my-3 py-4 border-t border-gray-700">
+              <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
                     ><img
@@ -667,7 +667,7 @@
                     <a href="#" class="text-white hover:underline"
                       >adhamfarrag</a
                     >
-                    <span class="text-xs text-gray-600 ml-1">07/17/2019</span>
+                    <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
@@ -678,7 +678,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex mx-6 my-3 py-4 border-t border-gray-700">
+              <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
                     ><img
@@ -692,7 +692,7 @@
                     <a href="#" class="text-white hover:underline"
                       >adhamfarrag</a
                     >
-                    <span class="text-xs text-gray-600 ml-1">07/17/2019</span>
+                    <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>yeah i never really use z-index</div>
@@ -700,7 +700,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex mx-6 my-3 py-4 border-t border-gray-700">
+              <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
                     ><img
@@ -714,7 +714,7 @@
                     <a href="#" class="text-white hover:underline"
                       >adhamfarrag</a
                     >
-                    <span class="text-xs text-gray-600 ml-1">07/17/2019</span>
+                    <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>awesome thats cool to hear!</div>
@@ -725,16 +725,16 @@
           </div>
 
           <div
-            class="sidebar-users text-sm bg-gray-800 w-56 flex-none px-3 py-3 overflow-y-auto"
+            class="flex-none w-56 px-3 py-3 overflow-y-auto text-sm bg-gray-800 sidebar-users"
           >
             <h3
-              class="uppercase tracking-wide font-semibold text-xs text-gray-500 mb-2"
+              class="mb-2 text-xs font-semibold tracking-wide text-gray-500 uppercase"
             >
               Core Team — 1
             </h3>
             <ul class="mb-6 truncate">
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2"
+                class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750"
               >
                 <a href="#" class="flex items-center">
                   <span class="flex-none"
@@ -749,7 +749,7 @@
               </li>
 
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2"
+                class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750"
               >
                 <a href="#" class="flex items-center">
                   <span class="flex-none"
@@ -764,14 +764,14 @@
               </li>
             </ul>
             <h3
-              class="uppercase tracking-wide font-semibold text-xs text-gray-500 mb-2"
+              class="mb-2 text-xs font-semibold tracking-wide text-gray-500 uppercase"
             >
               Online — 20
             </h3>
 
             <ul class="mb-6 truncate">
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2"
+                class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750"
               >
                 <a href="#" class="flex items-center">
                   <span class="flex-none"
@@ -783,7 +783,7 @@
                   ></span>
                   <div class="ml-2">
                     <div>mmahrous</div>
-                    <div class="text-xxs text-gray-600">
+                    <div class="text-gray-600 text-xxs">
                       Playing <span class="font-bold">Visual Studio Code</span>
                     </div>
                   </div>
@@ -791,7 +791,7 @@
               </li>
 
               <li
-                class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2"
+                class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750"
               >
                 <a href="#" class="flex items-center">
                   <span class="flex-none"
