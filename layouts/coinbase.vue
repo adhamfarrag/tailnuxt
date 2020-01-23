@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import CoinHeader from '~/components/Coinheader.vue';
+import CoinHeader from '~/components/CoinHeader.vue';
 import CoinFooter from '~/components/CoinFooter.vue';
 export default {
   components: {
