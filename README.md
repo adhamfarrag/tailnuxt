@@ -1,5 +1,3 @@
-
-
 <h3 align="center">
     <img width="150" src="https://nuxtjs.org/logos/nuxt-square.svg">
 
@@ -10,18 +8,17 @@
 Nuxt.js and Tailwind Examples
 </h1>
 
-
 ### Demo
-<a target="_blank" href="https://tailnuxt.surge.sh">https://tailnuxt.surge.sh</a>
+
+<a target="_blank" href="https://tailnuxt.netlify.com/">https://tailnuxt.netlify.com/</a>
 
 ### Notes
 
-My main goal was to practice TailwindCSS, but you can find components, templates, routing, little animations and some plugins, you know.. basic Nuxt.  
-
+My main goal is to practice TailwindCSS, but you can find components, templates, routing, little animations and some plugins, you know.. basic Nuxt.
 
 ### Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm run install
 
