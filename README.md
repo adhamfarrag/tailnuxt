@@ -10,7 +10,7 @@ Nuxt.js and Tailwind Examples
 
 ### Demo
 
-<a target="_blank" href="https://tailnuxt.netlify.com/">https://tailnuxt.netlify.com/</a>
+<a target="_blank" href="https://tailnuxt.now.sh/">https://tailnuxt.now.sh/</a>
 
 ### Notes
 
