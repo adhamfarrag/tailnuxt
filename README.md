@@ -14,7 +14,7 @@ Nuxt.js and Tailwind Examples
 
 ### Notes
 
-My main goal is to practice TailwindCSS, but you can find components, templates, routing, little animations and some plugins, you know.. basic Nuxt.
+My main goal is to practice TailwindCSS, every couple weeks I upload new examples.
 
 ### Build Setup
 
