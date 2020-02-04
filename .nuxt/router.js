@@ -8,7 +8,6 @@ const _62b0116f = () => interopDefault(import('../pages/CoinHome/index.vue' /* w
 const _470551da = () => interopDefault(import('../pages/CoinPrices/index.vue' /* webpackChunkName: "pages/CoinPrices/index" */))
 const _fcc11d9a = () => interopDefault(import('../pages/CoinSettings/index.vue' /* webpackChunkName: "pages/CoinSettings/index" */))
 const _0315e4ba = () => interopDefault(import('../pages/discord/index.vue' /* webpackChunkName: "pages/discord/index" */))
-const _1cb9934c = () => interopDefault(import('../pages/index-copy.vue' /* webpackChunkName: "pages/index-copy" */))
 const _6ffe183d = () => interopDefault(import('../pages/Reddit/index.vue' /* webpackChunkName: "pages/Reddit/index" */))
 const _6ae7aec6 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -48,10 +47,6 @@ export const routerOptions = {
     path: "/discord",
     component: _0315e4ba,
     name: "discord"
-  }, {
-    path: "/index-copy",
-    component: _1cb9934c,
-    name: "index-copy"
   }, {
     path: "/Reddit",
     component: _6ffe183d,
