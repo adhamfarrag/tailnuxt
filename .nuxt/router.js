@@ -7,6 +7,7 @@ const _4c7bd936 = () => interopDefault(import('../pages/CoinAccounts/index.vue' 
 const _62b0116f = () => interopDefault(import('../pages/CoinHome/index.vue' /* webpackChunkName: "pages/CoinHome/index" */))
 const _470551da = () => interopDefault(import('../pages/CoinPrices/index.vue' /* webpackChunkName: "pages/CoinPrices/index" */))
 const _fcc11d9a = () => interopDefault(import('../pages/CoinSettings/index.vue' /* webpackChunkName: "pages/CoinSettings/index" */))
+const _0f6f9cf5 = () => interopDefault(import('../pages/Components/index.vue' /* webpackChunkName: "pages/Components/index" */))
 const _0315e4ba = () => interopDefault(import('../pages/discord/index.vue' /* webpackChunkName: "pages/discord/index" */))
 const _6ffe183d = () => interopDefault(import('../pages/Reddit/index.vue' /* webpackChunkName: "pages/Reddit/index" */))
 const _6ae7aec6 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -43,6 +44,10 @@ export const routerOptions = {
     path: "/CoinSettings",
     component: _fcc11d9a,
     name: "CoinSettings"
+  }, {
+    path: "/Components",
+    component: _0f6f9cf5,
+    name: "Components"
   }, {
     path: "/discord",
     component: _0315e4ba,

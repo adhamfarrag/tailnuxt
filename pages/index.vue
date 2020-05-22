@@ -15,10 +15,10 @@
           :startDelay="500"
           :typeSpeed="70"
           :strings="[
-          'Hello! 👋🏻',
-          '^1000 Thanks for checking my examples! ^1000',
-          '^1000 Feel free to request apps you like '
-        ]"
+            'Hello! 👋🏻',
+            '^1000 Thanks for checking my examples! ^1000',
+            '^1000 Feel free to request apps you like '
+          ]"
           :cursorChar="'_'"
           :smartBackspace="true"
           @onComplete="showSocial()"
@@ -107,7 +107,8 @@ export default {
 .fade-leave-active {
   transition: opacity 0.5s;
 }
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 </style>
