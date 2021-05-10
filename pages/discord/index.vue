@@ -1,6 +1,6 @@
 <template>
   <div class="flex">
-    <div class="flex flex-col flex-none w-20 h-screen min-h-screen px-2 py-2 bg-gray-900" >
+    <div class="flex flex-col flex-none w-20 h-screen min-h-screen px-2 py-2 bg-gray-900">
       <div class="overflow-y-auto channel-bar">
         <ul class="text-center">
           <li>
@@ -16,29 +16,17 @@
           <li class="mx-4 mt-3 border-b border-gray-700"></li>
           <li class="mt-3">
             <a href="#">
-              <img
-                src="/icon_laravel.svg"
-                alt="laravel"
-                class="w-12 h-12 mx-auto rounded-full"
-              />
+              <img src="/icon_laravel.svg" alt="laravel" class="w-12 h-12 mx-auto rounded-full" />
             </a>
           </li>
           <li class="mt-3">
             <a href="#">
-              <img
-                src="/icon_tailwind.svg"
-                alt="tailwind"
-                class="w-12 h-12 mx-auto rounded-full"
-              />
+              <img src="/icon_tailwind.svg" alt="tailwind" class="w-12 h-12 mx-auto rounded-full" />
             </a>
           </li>
           <li class="mt-3">
             <a href="#">
-              <img
-                src="/icon_vue.svg"
-                alt="vue"
-                class="w-12 h-12 mx-auto rounded-full"
-              />
+              <img src="/icon_vue.svg" alt="vue" class="w-12 h-12 mx-auto rounded-full" />
             </a>
           </li>
           <li class="mt-3">
@@ -126,9 +114,7 @@
           <div class="flex items-center">
             <div class="text-2xl text-gray-500">#</div>
             <div class="ml-2 text-sm text-white">general</div>
-            <div
-              class="pl-3 ml-3 text-xs text-gray-400 border-l border-gray-600"
-            >
+            <div class="pl-3 ml-3 text-xs text-gray-400 border-l border-gray-600">
               general discussion of Tailwind CSS
             </div>
           </div>
@@ -221,12 +207,7 @@
               >
                 <g data-name="Layer 2">
                   <g data-name="menu-arrow-circle">
-                    <rect
-                      width="24"
-                      height="24"
-                      transform="rotate(180 12 12)"
-                      opacity="0"
-                    />
+                    <rect width="24" height="24" transform="rotate(180 12 12)" opacity="0" />
                     <path
                       d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 16a1 1 0 1 1 1-1 1 1 0 0 1-1 1zm1-5.16V14a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1 1.5 1.5 0 1 0-1.5-1.5 1 1 0 0 1-2 0 3.5 3.5 0 1 1 4.5 3.34z"
                     />
@@ -238,22 +219,16 @@
         </div>
       </div>
       <div class="flex flex-1 overflow-y-hidden bg-blue-500">
-        <div
-          class="flex flex-col justify-between flex-none w-56 overflow-y-auto bg-gray-800"
-        >
+        <div class="flex flex-col justify-between flex-none w-56 overflow-y-auto bg-gray-800">
           <div class="overflow-y-auto text-sm leading-relaxed hashtag-bar">
             <ul class="px-2 py-3">
-              <li
-                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">welcome</span>
                 </a>
               </li>
-              <li
-                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">faq</span>
@@ -262,12 +237,7 @@
             </ul>
 
             <button class="flex items-center text-gray-500 hover:text-gray-200">
-              <svg
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                width="24"
-                height="24"
-              >
+              <svg fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
                 <path
                   class="heroicon-ui"
                   d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"
@@ -287,49 +257,37 @@
                   <span class="ml-2">general</span>
                 </a>
               </li>
-              <li
-                class="px-2 text-gray-200 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-200 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">core-dev</span>
                 </a>
               </li>
-              <li
-                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">course</span>
                 </a>
               </li>
-              <li
-                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">plugins</span>
                 </a>
               </li>
-              <li
-                class="px-2 text-gray-200 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-200 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">docs</span>
                 </a>
               </li>
-              <li
-                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">showcase</span>
                 </a>
               </li>
-              <li
-                class="px-2 text-gray-200 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-200 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">help</span>
@@ -338,12 +296,7 @@
             </ul>
 
             <button class="flex items-center text-gray-500 hover:text-gray-200">
-              <svg
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                width="24"
-                height="24"
-              >
+              <svg fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
                 <path
                   class="heroicon-ui"
                   d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"
@@ -355,17 +308,13 @@
             </button>
 
             <ul class="px-2 py-3 pt-2">
-              <li
-                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">feedback</span>
                 </a>
               </li>
-              <li
-                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">jobs</span>
@@ -374,12 +323,7 @@
             </ul>
 
             <button class="flex items-center text-gray-500 hover:text-gray-200">
-              <svg
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                width="24"
-                height="24"
-              >
+              <svg fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
                 <path
                   class="heroicon-ui"
                   d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"
@@ -391,25 +335,19 @@
             </button>
 
             <ul class="px-2 py-3 pt-2">
-              <li
-                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">design</span>
                 </a>
               </li>
-              <li
-                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">development</span>
                 </a>
               </li>
-              <li
-                class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900"
-              >
+              <li class="px-2 text-gray-500 hover:text-gray-200 hover:bg-gray-900">
                 <a href="#" class="flex items-center">
                   <span class="text-xl">#</span>
                   <span class="ml-2">random</span>
@@ -419,12 +357,7 @@
           </div>
           <div class="flex items-center justify-between px-3 py-2 bg-gray-900">
             <div class="flex items-center">
-              <a href="#"
-                ><img
-                  src="/avatar.jpg"
-                  alt="avatar"
-                  class="w-8 h-8 rounded-full"
-              /></a>
+              <a href="#"><img src="/avatar.jpg" alt="avatar" class="w-8 h-8 rounded-full"/></a>
               <div class="ml-2 text-xs">
                 <div class="text-white">adhamfarrag</div>
                 <div class="text-gray-500 text-xxs">#9589</div>
@@ -462,13 +395,7 @@
                 </svg>
               </a>
               <a href="#" class="ml-3 hover:text-white">
-                <svg
-                  class="w-5 h-5"
-                  fill="currentColor"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
+                <svg class="w-5 h-5" fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
                   <path d="M0 0h24v24H0z" fill="none"></path>
                   <path
                     d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"
@@ -484,17 +411,12 @@
               <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
-                    ><img
-                      src="/avatar.jpg"
-                      alt="avatar"
-                      class="w-10 h-10 rounded-full"
+                    ><img src="/avatar.jpg" alt="avatar" class="w-10 h-10 rounded-full"
                   /></a>
                 </div>
                 <div class="ml-5">
                   <div>
-                    <a href="#" class="text-white hover:underline"
-                      >adhamfarrag</a
-                    >
+                    <a href="#" class="text-white hover:underline">adhamfarrag</a>
                     <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
@@ -507,25 +429,18 @@
               <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
-                    ><img
-                      src="/avatar.jpg"
-                      alt="avatar"
-                      class="w-10 h-10 rounded-full"
+                    ><img src="/avatar.jpg" alt="avatar" class="w-10 h-10 rounded-full"
                   /></a>
                 </div>
                 <div class="ml-5">
                   <div>
-                    <a href="#" class="text-white hover:underline"
-                      >adhamfarrag</a
-                    >
+                    <a href="#" class="text-white hover:underline">adhamfarrag</a>
                     <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
                       Here are the
-                      <a href="#" class="text-blue-400 hover:underline"
-                        >Tailwind docs</a
-                      >
+                      <a href="#" class="text-blue-400 hover:underline">Tailwind docs</a>
                     </div>
                   </div>
                 </div>
@@ -533,17 +448,12 @@
               <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
-                    ><img
-                      src="/avatar.jpg"
-                      alt="avatar"
-                      class="w-10 h-10 rounded-full"
+                    ><img src="/avatar.jpg" alt="avatar" class="w-10 h-10 rounded-full"
                   /></a>
                 </div>
                 <div class="ml-5">
                   <div>
-                    <a href="#" class="text-white hover:underline"
-                      >adhamfarrag</a
-                    >
+                    <a href="#" class="text-white hover:underline">adhamfarrag</a>
                     <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
@@ -556,23 +466,17 @@
               <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
-                    ><img
-                      src="/avatar.jpg"
-                      alt="avatar"
-                      class="w-10 h-10 rounded-full"
+                    ><img src="/avatar.jpg" alt="avatar" class="w-10 h-10 rounded-full"
                   /></a>
                 </div>
                 <div class="ml-5">
                   <div>
-                    <a href="#" class="text-white hover:underline"
-                      >adhamfarrag</a
-                    >
+                    <a href="#" class="text-white hover:underline">adhamfarrag</a>
                     <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
-                      This is handy if you don't want to load SVG as a separate
-                      file.
+                      This is handy if you don't want to load SVG as a separate file.
                     </div>
                   </div>
                 </div>
@@ -580,25 +484,18 @@
               <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
-                    ><img
-                      src="/avatar.jpg"
-                      alt="avatar"
-                      class="w-10 h-10 rounded-full"
+                    ><img src="/avatar.jpg" alt="avatar" class="w-10 h-10 rounded-full"
                   /></a>
                 </div>
                 <div class="ml-5">
                   <div>
-                    <a href="#" class="text-white hover:underline"
-                      >adhamfarrag</a
-                    >
+                    <a href="#" class="text-white hover:underline">adhamfarrag</a>
                     <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
                       Exactly the same way as in Vue
-                      <a href="#" class="text-indigo-400 hover:underline"
-                        >@impulse</a
-                      >
+                      <a href="#" class="text-indigo-400 hover:underline">@impulse</a>
                     </div>
                   </div>
                 </div>
@@ -606,23 +503,17 @@
               <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
-                    ><img
-                      src="/avatar.jpg"
-                      alt="avatar"
-                      class="w-10 h-10 rounded-full"
+                    ><img src="/avatar.jpg" alt="avatar" class="w-10 h-10 rounded-full"
                   /></a>
                 </div>
                 <div class="ml-5">
                   <div>
-                    <a href="#" class="text-white hover:underline"
-                      >adhamfarrag</a
-                    >
+                    <a href="#" class="text-white hover:underline">adhamfarrag</a>
                     <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
-                      I think it can slow down the page if there's too much
-                      bloat in the document.
+                      I think it can slow down the page if there's too much bloat in the document.
                     </div>
                     <div>Compared to loading it externally.</div>
                   </div>
@@ -631,24 +522,18 @@
               <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
-                    ><img
-                      src="/avatar.jpg"
-                      alt="avatar"
-                      class="w-10 h-10 rounded-full"
+                    ><img src="/avatar.jpg" alt="avatar" class="w-10 h-10 rounded-full"
                   /></a>
                 </div>
                 <div class="ml-5">
                   <div>
-                    <a href="#" class="text-white hover:underline"
-                      >adhamfarrag</a
-                    >
+                    <a href="#" class="text-white hover:underline">adhamfarrag</a>
                     <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
-                      Comparison would be better if it's not also comparing an
-                      vector svg to a raster gif, it's a difference in rendering
-                      too.
+                      Comparison would be better if it's not also comparing an vector svg to a
+                      raster gif, it's a difference in rendering too.
                     </div>
                   </div>
                 </div>
@@ -656,24 +541,18 @@
               <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
-                    ><img
-                      src="/avatar.jpg"
-                      alt="avatar"
-                      class="w-10 h-10 rounded-full"
+                    ><img src="/avatar.jpg" alt="avatar" class="w-10 h-10 rounded-full"
                   /></a>
                 </div>
                 <div class="ml-5">
                   <div>
-                    <a href="#" class="text-white hover:underline"
-                      >adhamfarrag</a
-                    >
+                    <a href="#" class="text-white hover:underline">adhamfarrag</a>
                     <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
                     <div>
-                      Thank you that works perfectly! Turns out my z-index (or
-                      lack of setting one) was also messing things up on the
-                      navbar.
+                      Thank you that works perfectly! Turns out my z-index (or lack of setting one)
+                      was also messing things up on the navbar.
                     </div>
                   </div>
                 </div>
@@ -681,17 +560,12 @@
               <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
-                    ><img
-                      src="/avatar.jpg"
-                      alt="avatar"
-                      class="w-10 h-10 rounded-full"
+                    ><img src="/avatar.jpg" alt="avatar" class="w-10 h-10 rounded-full"
                   /></a>
                 </div>
                 <div class="ml-5">
                   <div>
-                    <a href="#" class="text-white hover:underline"
-                      >adhamfarrag</a
-                    >
+                    <a href="#" class="text-white hover:underline">adhamfarrag</a>
                     <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
@@ -703,17 +577,12 @@
               <div class="flex py-4 mx-6 my-3 border-t border-gray-700">
                 <div class="flex-none">
                   <a href="#"
-                    ><img
-                      src="/avatar.jpg"
-                      alt="avatar"
-                      class="w-10 h-10 rounded-full"
+                    ><img src="/avatar.jpg" alt="avatar" class="w-10 h-10 rounded-full"
                   /></a>
                 </div>
                 <div class="ml-5">
                   <div>
-                    <a href="#" class="text-white hover:underline"
-                      >adhamfarrag</a
-                    >
+                    <a href="#" class="text-white hover:underline">adhamfarrag</a>
                     <span class="ml-1 text-xs text-gray-600">07/17/2019</span>
                   </div>
                   <div>
@@ -724,62 +593,41 @@
             </div>
           </div>
 
-          <div
-            class="flex-none w-56 px-3 py-3 overflow-y-auto text-sm bg-gray-800 sidebar-users"
-          >
-            <h3
-              class="mb-2 text-xs font-semibold tracking-wide text-gray-500 uppercase"
-            >
+          <div class="flex-none w-56 px-3 py-3 overflow-y-auto text-sm bg-gray-800 sidebar-users">
+            <h3 class="mb-2 text-xs font-semibold tracking-wide text-gray-500 uppercase">
               Core Team — 1
             </h3>
             <ul class="mb-6 truncate">
-              <li
-                class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750"
-              >
+              <li class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750">
                 <a href="#" class="flex items-center">
                   <span class="flex-none"
                     ><a href="#"
-                      ><img
-                        src="/avatar2.jpg"
-                        alt="avatar"
-                        class="w-8 h-8 rounded-full"/></a
+                      ><img src="/avatar2.jpg" alt="avatar" class="w-8 h-8 rounded-full"/></a
                   ></span>
                   <span class="ml-2">mmahrous</span>
                 </a>
               </li>
 
-              <li
-                class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750"
-              >
+              <li class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750">
                 <a href="#" class="flex items-center">
                   <span class="flex-none"
                     ><a href="#"
-                      ><img
-                        src="/avatar.jpg"
-                        alt="avatar"
-                        class="w-8 h-8 rounded-full"/></a
+                      ><img src="/avatar.jpg" alt="avatar" class="w-8 h-8 rounded-full"/></a
                   ></span>
                   <span class="ml-2">adhamfarrag</span>
                 </a>
               </li>
             </ul>
-            <h3
-              class="mb-2 text-xs font-semibold tracking-wide text-gray-500 uppercase"
-            >
+            <h3 class="mb-2 text-xs font-semibold tracking-wide text-gray-500 uppercase">
               Online — 20
             </h3>
 
             <ul class="mb-6 truncate">
-              <li
-                class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750"
-              >
+              <li class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750">
                 <a href="#" class="flex items-center">
                   <span class="flex-none"
                     ><a href="#"
-                      ><img
-                        src="/avatar2.jpg"
-                        alt="avatar"
-                        class="w-8 h-8 rounded-full"/></a
+                      ><img src="/avatar2.jpg" alt="avatar" class="w-8 h-8 rounded-full"/></a
                   ></span>
                   <div class="ml-2">
                     <div>mmahrous</div>
@@ -790,16 +638,11 @@
                 </a>
               </li>
 
-              <li
-                class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750"
-              >
+              <li class="px-2 py-1 my-2 text-gray-500 hover:text-gray-200 hover:bg-gray-750">
                 <a href="#" class="flex items-center">
                   <span class="flex-none"
                     ><a href="#"
-                      ><img
-                        src="/avatar2.jpg"
-                        alt="avatar"
-                        class="w-8 h-8 rounded-full"/></a
+                      ><img src="/avatar2.jpg" alt="avatar" class="w-8 h-8 rounded-full"/></a
                   ></span>
                   <span class="ml-2">mmahrous</span>
                 </a>
@@ -814,11 +657,10 @@
 
 <script>
 export default {
-
   head() {
     return {
-      title: "Discord UI Clone"
+      title: 'Discord UI Clone',
     };
-  }
+  },
 };
 </script>

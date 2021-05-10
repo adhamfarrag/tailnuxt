@@ -1,19 +1,33 @@
 <template>
   <div>
-    <div class="items-center self-center mt-5 mb-4 border border-gray-200 rounded ml-28 mr-28" >
-      <div class="flex flex-row items-center justify-between w-full py-3 border-b border-gray-200" >
+    <div class="items-center self-center mt-5 mb-4 border border-gray-200 rounded ml-28 mr-28">
+      <div class="flex flex-row items-center justify-between w-full py-3 border-b border-gray-200">
         <p class="ml-3 text-lg font-semibold text-left text-gray-800">Following</p>
         <div class="flex items-center mr-6">
           <p class="ml-1 mr-2 text-sm font-light text-left text-gray-600">Edit</p>
           <span class="flex items-center ml-2">
-            <svg class="mr-4 text-logo-coinbase" fill="currentColor" height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg" >
+            <svg
+              class="mr-4 text-logo-coinbase"
+              fill="currentColor"
+              height="18"
+              viewBox="0 0 18 18"
+              width="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <g>
-                <path d="M7.044 0H.783A.783.783 0 0 0 0 .783v6.26c0 .433.35.783.783.783h6.26c.433 0 .783-.35.783-.782V.783A.783.783 0 0 0 7.044 0zM17.218 0h-6.261a.783.783 0 0 0-.783.783v6.26c0 .433.35.783.783.783h6.26c.433 0 .783-.35.783-.782V.783A.783.783 0 0 0 17.217 0zM7.044 10.174H.783a.783.783 0 0 0-.783.782v6.261c0 .433.35.783.783.783h6.26c.433 0 .783-.35.783-.783v-6.26a.783.783 0 0 0-.782-.783zM17.218 10.174h-6.261a.783.783 0 0 0-.783.782v6.261c0 .433.35.783.783.783h6.26c.433 0 .783-.35.783-.783v-6.26a.783.783 0 0 0-.783-.783z"/>
+                <path
+                  d="M7.044 0H.783A.783.783 0 0 0 0 .783v6.26c0 .433.35.783.783.783h6.26c.433 0 .783-.35.783-.782V.783A.783.783 0 0 0 7.044 0zM17.218 0h-6.261a.783.783 0 0 0-.783.783v6.26c0 .433.35.783.783.783h6.26c.433 0 .783-.35.783-.782V.783A.783.783 0 0 0 17.217 0zM7.044 10.174H.783a.783.783 0 0 0-.783.782v6.261c0 .433.35.783.783.783h6.26c.433 0 .783-.35.783-.783v-6.26a.783.783 0 0 0-.782-.783zM17.218 10.174h-6.261a.783.783 0 0 0-.783.782v6.261c0 .433.35.783.783.783h6.26c.433 0 .783-.35.783-.783v-6.26a.783.783 0 0 0-.783-.783z"
+                />
               </g>
             </svg>
-            <svg class width="19"
+            <svg
+              class
+              width="19"
               height="16"
-              viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg" >
+              viewBox="0 0 19 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
                 d="M0 10.286c0 .63.512 1.143 1.143 1.143h16.714a1.143 1.143 0 0 0 0-2.286H1.143C.512 9.143 0 9.655 0 10.286zm0 4.571C0 15.488.512 16 1.143 16h16.714a1.143 1.143 0 0 0 0-2.286H1.143c-.631 0-1.143.512-1.143 1.143zm0-9.143c0 .631.512 1.143 1.143 1.143h16.714a1.143 1.143 0 1 0 0-2.286H1.143C.512 4.571 0 5.083 0 5.714zM1.143 0a1.143 1.143 0 1 0 0 2.286h16.714a1.143 1.143 0 1 0 0-2.286H1.143z"
                 fill="#BECADA"
@@ -44,9 +58,39 @@
               </div>
             </div>
 
-            <trend 
-                :data="[0, 2, 4,3, 5, 7, 3, 5, 4, 2, 1, 8, 2, 9, 0, 5, 10, 3, 5, 0, 0, 1, 8, 2, 9, 0 ]" 
-                :gradient="['#F7931A']" auto-draw smooth>
+            <trend
+              :data="[
+                0,
+                2,
+                4,
+                3,
+                5,
+                7,
+                3,
+                5,
+                4,
+                2,
+                1,
+                8,
+                2,
+                9,
+                0,
+                5,
+                10,
+                3,
+                5,
+                0,
+                0,
+                1,
+                8,
+                2,
+                9,
+                0,
+              ]"
+              :gradient="['#F7931A']"
+              auto-draw
+              smooth
+            >
             </trend>
           </div>
         </div>
@@ -232,9 +276,7 @@
       <div
         class="flex flex-col items-center self-center w-2/5 mr-2 border border-gray-200 rounded ml-28"
       >
-        <div
-          class="flex flex-row items-center justify-between w-full border-b border-gray-200"
-        >
+        <div class="flex flex-row items-center justify-between w-full border-b border-gray-200">
           <p class="ml-3 text-lg font-semibold text-left text-gray-800">
             Recent Activity
           </p>
@@ -261,9 +303,7 @@
                 MYR
                 <span class="text-5xl">0</span>.00
               </span>
-              <p
-                class="text-sm font-semibold text-left text-gray-500 uppercase"
-              >
+              <p class="text-sm font-semibold text-left text-gray-500 uppercase">
                 Total balanace
               </p>
             </div>
@@ -280,12 +320,8 @@
         </div>
       </div>
 
-      <div
-        class="items-center self-center w-2/5 ml-2 border border-gray-200 rounded mr-28"
-      >
-        <div
-          class="flex flex-row items-center justify-between w-full border-b border-gray-200"
-        >
+      <div class="items-center self-center w-2/5 ml-2 border border-gray-200 rounded mr-28">
+        <div class="flex flex-row items-center justify-between w-full border-b border-gray-200">
           <p class="ml-3 text-lg font-semibold text-left text-gray-800">
             Recent Activity
           </p>
@@ -316,8 +352,7 @@
             No transactions yet
           </p>
           <p class="w-8/12 mt-1 text-base font-light text-center text-gray-500">
-            There are lots of different ways to participate in the
-            cryptocurrency ecosystem.
+            There are lots of different ways to participate in the cryptocurrency ecosystem.
           </p>
         </div>
 
@@ -336,6 +371,6 @@
 
 <script>
 export default {
-  layout: "coinbase"
+  layout: 'coinbase',
 };
 </script>

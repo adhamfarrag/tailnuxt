@@ -1,0 +1,58 @@
+[
+  {
+    "name": "CoinAccounts",
+    "path": "/CoinAccounts",
+    "component": "/Users/adhamfarrag/Documents/GitHub/tailnuxt/pages/CoinAccounts/index.vue",
+    "chunkName": "pages/CoinAccounts/index",
+    "_name": "_6f7a16a1"
+  },
+  {
+    "name": "CoinHome",
+    "path": "/CoinHome",
+    "component": "/Users/adhamfarrag/Documents/GitHub/tailnuxt/pages/CoinHome/index.vue",
+    "chunkName": "pages/CoinHome/index",
+    "_name": "_4ea3bc5a"
+  },
+  {
+    "name": "CoinPrices",
+    "path": "/CoinPrices",
+    "component": "/Users/adhamfarrag/Documents/GitHub/tailnuxt/pages/CoinPrices/index.vue",
+    "chunkName": "pages/CoinPrices/index",
+    "_name": "_04b9ee05"
+  },
+  {
+    "name": "CoinSettings",
+    "path": "/CoinSettings",
+    "component": "/Users/adhamfarrag/Documents/GitHub/tailnuxt/pages/CoinSettings/index.vue",
+    "chunkName": "pages/CoinSettings/index",
+    "_name": "_b6c4a2c4"
+  },
+  {
+    "name": "Components",
+    "path": "/Components",
+    "component": "/Users/adhamfarrag/Documents/GitHub/tailnuxt/pages/Components/index.vue",
+    "chunkName": "pages/Components/index",
+    "_name": "_65b78dc0"
+  },
+  {
+    "name": "discord",
+    "path": "/discord",
+    "component": "/Users/adhamfarrag/Documents/GitHub/tailnuxt/pages/discord/index.vue",
+    "chunkName": "pages/discord/index",
+    "_name": "_a98a4d50"
+  },
+  {
+    "name": "Reddit",
+    "path": "/Reddit",
+    "component": "/Users/adhamfarrag/Documents/GitHub/tailnuxt/pages/Reddit/index.vue",
+    "chunkName": "pages/Reddit/index",
+    "_name": "_6fb4fc30"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/adhamfarrag/Documents/GitHub/tailnuxt/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_439aff7b"
+  }
+]

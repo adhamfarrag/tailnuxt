@@ -17,7 +17,7 @@
           :strings="[
             'Hello! 👋🏻',
             '^1000 Thanks for checking my examples! ^1000',
-            '^1000 Feel free to request apps you like '
+            '^1000 Feel free to request apps you like ',
           ]"
           :cursorChar="'_'"
           :smartBackspace="true"
@@ -87,18 +87,18 @@
 <script>
 export default {
   head: {
-    title: 'Tailwind CSS Examples'
+    title: 'Tailwind CSS Examples',
   },
   data() {
     return {
-      isHidden: false
+      isHidden: false,
     };
   },
   methods: {
     showSocial() {
       this.isHidden = true;
-    }
-  }
+    },
+  },
 };
 </script>
 

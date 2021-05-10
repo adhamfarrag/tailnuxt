@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="flex flex-row items-center justify-between px-3 py-2 mt-4 border border-gray-300 rounded ml-28 mr-28">
+    <div
+      class="flex flex-row items-center justify-between px-3 py-2 mt-4 border border-gray-300 rounded ml-28 mr-28"
+    >
       <div class="flex flex-row items-center">
         <svg
           fill="currentColor"
@@ -48,11 +50,25 @@
             <td class="p-3 font-light">1.26%</td>
             <td class="p-3 font-light">MYR 597.7B</td>
             <td class="p-3"></td>
-            <td class="p-3"><svg filled="1" class="WatchStar__StarIcon-bysljc-3 fowNbh" fill="none" height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z" stroke="#becada"></path></svg></td>
+            <td class="p-3">
+              <svg
+                filled="1"
+                class="WatchStar__StarIcon-bysljc-3 fowNbh"
+                fill="none"
+                height="23"
+                viewBox="0 0 24 23"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z"
+                  stroke="#becada"
+                ></path>
+              </svg>
+            </td>
           </tr>
 
           <tr class="px-2 py-2 border-t border-gray-300 ">
-
             <td class="p-3">1</td>
 
             <td class="p-3">
@@ -63,12 +79,25 @@
             <td class="p-3 font-light">1.26%</td>
             <td class="p-3 font-light">MYR 597.7B</td>
             <td class="p-3"></td>
-            <td class="p-3"><svg filled="1" class="WatchStar__StarIcon-bysljc-3 fowNbh" fill="none" height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z" stroke="#becada"></path></svg></td>
-
+            <td class="p-3">
+              <svg
+                filled="1"
+                class="WatchStar__StarIcon-bysljc-3 fowNbh"
+                fill="none"
+                height="23"
+                viewBox="0 0 24 23"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z"
+                  stroke="#becada"
+                ></path>
+              </svg>
+            </td>
           </tr>
 
           <tr class="px-2 py-2 border-t border-gray-300 ">
-
             <td class="p-3">1</td>
 
             <td class="p-3">
@@ -79,12 +108,25 @@
             <td class="p-3 font-light">1.26%</td>
             <td class="p-3 font-light">MYR 597.7B</td>
             <td class="p-3"></td>
-            <td class="p-3"><svg filled="1" class="WatchStar__StarIcon-bysljc-3 fowNbh" fill="none" height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z" stroke="#becada"></path></svg></td>
-
+            <td class="p-3">
+              <svg
+                filled="1"
+                class="WatchStar__StarIcon-bysljc-3 fowNbh"
+                fill="none"
+                height="23"
+                viewBox="0 0 24 23"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z"
+                  stroke="#becada"
+                ></path>
+              </svg>
+            </td>
           </tr>
 
           <tr class="px-2 py-2 border-t border-gray-300 ">
-
             <td class="p-3">1</td>
 
             <td class="p-3">
@@ -95,12 +137,25 @@
             <td class="p-3 font-light">1.26%</td>
             <td class="p-3 font-light">MYR 597.7B</td>
             <td class="p-3"></td>
-            <td class="p-3"><svg filled="1" class="WatchStar__StarIcon-bysljc-3 fowNbh" fill="none" height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z" stroke="#becada"></path></svg></td>
-
+            <td class="p-3">
+              <svg
+                filled="1"
+                class="WatchStar__StarIcon-bysljc-3 fowNbh"
+                fill="none"
+                height="23"
+                viewBox="0 0 24 23"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z"
+                  stroke="#becada"
+                ></path>
+              </svg>
+            </td>
           </tr>
 
           <tr class="px-2 py-2 border-t border-gray-300 ">
-
             <td class="p-3">1</td>
 
             <td class="p-3">
@@ -111,12 +166,25 @@
             <td class="p-3 font-light">1.26%</td>
             <td class="p-3 font-light">MYR 597.7B</td>
             <td class="p-3"></td>
-            <td class="p-3"><svg filled="1" class="WatchStar__StarIcon-bysljc-3 fowNbh" fill="none" height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z" stroke="#becada"></path></svg></td>
-
+            <td class="p-3">
+              <svg
+                filled="1"
+                class="WatchStar__StarIcon-bysljc-3 fowNbh"
+                fill="none"
+                height="23"
+                viewBox="0 0 24 23"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z"
+                  stroke="#becada"
+                ></path>
+              </svg>
+            </td>
           </tr>
 
           <tr class="px-2 py-2 border-t border-gray-300 ">
-
             <td class="p-3">1</td>
 
             <td class="p-3">
@@ -127,8 +195,22 @@
             <td class="p-3 font-light">1.26%</td>
             <td class="p-3 font-light">MYR 597.7B</td>
             <td class="p-3"></td>
-            <td class="p-3"><svg filled="1" class="WatchStar__StarIcon-bysljc-3 fowNbh" fill="none" height="23" viewBox="0 0 24 23" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z" stroke="#becada"></path></svg></td>
-
+            <td class="p-3">
+              <svg
+                filled="1"
+                class="WatchStar__StarIcon-bysljc-3 fowNbh"
+                fill="none"
+                height="23"
+                viewBox="0 0 24 23"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.713 1.443l2.969 6.015 6.637.965a.794.794 0 0 1 .44 1.354l-4.804 4.681 1.135 6.612a.794.794 0 0 1-1.152.837L12 18.787l-5.938 3.121a.795.795 0 0 1-1.152-.838l1.134-6.612L1.24 9.777a.794.794 0 0 1 .44-1.354l6.638-.965 2.968-6.015a.795.795 0 0 1 1.425 0z"
+                  stroke="#becada"
+                ></path>
+              </svg>
+            </td>
           </tr>
         </tbody>
       </table>
@@ -138,6 +220,6 @@
 
 <script>
 export default {
-  layout: "coinbase"
+  layout: 'coinbase',
 };
 </script>

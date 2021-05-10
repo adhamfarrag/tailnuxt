@@ -1,5 +1,7 @@
 <template>
-   <footer class="text-copy-primary ml-5 bottom-0 mt-32 text-sm pb-12 flex flex-row flex-col sm:justify-between" >
+  <footer
+    class="bottom-0 flex flex-row flex-col pb-12 mt-32 ml-5 text-sm text-copy-primary sm:justify-between"
+  >
     <div>
       <p class="font-mono ">
         &copy; CPM 2019
